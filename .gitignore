@@ -1,0 +1,26 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+.claude/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Other model files (only deploy the one we need)
+CNN_best_model.keras
+CNN_final_model.keras
+googlenet.keras
+plant_disease_98_77.keras
+
+# HuggingFace model dir
+HuggingFace-Plant-Disease-Model/
